@@ -18,7 +18,8 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-
+html:
+	%SPHINXBUILD% -b html %SOURCEDIR% "docs" %SPHINXOPTS% %O%
 s:
 	git add .
 	commit-emoji
