@@ -26,4 +26,10 @@ language = 'ja'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+html_css_files = [
+    'https://quantum-mountain.github.io/quantum-mountain-documentation/_static/css/custom.css'
+]
+html_js_files = [
+    'https://quantum-mountain.github.io/quantum-mountain-documentation/_static/js/custom.js'
+]
 html_baseurl = "https://quantum-mountain.github.io/quantum-mountain-documentation/"
