@@ -19,6 +19,9 @@ help:
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+build:
+	sphinx-build source home
+
 s:
 	git add .
 	commit-emoji
