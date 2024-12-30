@@ -26,3 +26,6 @@ s:
 	git add .
 	commit-emoji
 	git push origin main
+
+up:
+	python -m http.server 8000
